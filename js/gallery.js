@@ -98,8 +98,7 @@ gallery.addEventListener('click', event => {
   const source = event.target.dataset.source;
   const { original } = images.find(image => image.original == source);
   basicLightbox
-    .create(
-      `
+    .create(`
    <div class='modal'>
    <img src="${original}"></div>
     `
