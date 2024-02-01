@@ -1,0 +1,22 @@
+ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  user-select: none;
+  list-style: none;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: transform 500ms ease-in-out;
+}
+.gallery-image:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+.modal img {
+  width: 1112px;
+  height: 640px;
+}
